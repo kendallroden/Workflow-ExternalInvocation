@@ -70,12 +70,6 @@ Navigate to the `Run and Debug` tab and select `Debug Checkout`. This will launc
     The Workflow should either be "COMPLETED" with a "Payment Failed" custom status:
 
     ```json
-       HTTP/1.1 200 OK
-       Date: Sat, 29 Jul 2023 01:29:46 GMT
-       Content-Type: application/json
-       Content-Length: 425
-       Traceparent: 00-42ec39c9d6d755e77318f4fd2058a20b-bd96fd6fd4313e4d-01
-       Connection: close
        {
            "instanceID": "50b8ce61-e6b3-416d-a33e-3cec1e7bed1f",
            "workflowName": "CheckoutWorkflow",
@@ -94,13 +88,6 @@ Navigate to the `Run and Debug` tab and select `Debug Checkout`. This will launc
 
    
     ```json
-      HTTP/1.1 200 OK
-      Date: Sat, 29 Jul 2023 01:40:22 GMT
-      Content-Type: application/json
-      Content-Length: 428
-      Traceparent: 00-169b6f4f9b3fe33e114808e1bbefbeab-e55464d267ea3a67-01
-      Connection: close
-      
       {
         "instanceID": "176da304-38ea-4691-9b48-752a2f0a18ef",
         "workflowName": "CheckoutWorkflow",
