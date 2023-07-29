@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/CheckoutServiceWorkflowSample.csproj": {}
+    "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/CheckoutServiceWorkflowSample.csproj": {}
   },
   "projects": {
-    "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/CheckoutServiceWorkflowSample.csproj": {
+    "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/CheckoutServiceWorkflowSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/CheckoutServiceWorkflowSample.csproj",
+        "projectUniqueName": "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/CheckoutServiceWorkflowSample.csproj",
         "projectName": "CheckoutServiceWorkflowSample",
-        "projectPath": "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/CheckoutServiceWorkflowSample.csproj",
+        "projectPath": "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/CheckoutServiceWorkflowSample.csproj",
         "packagesPath": "/Users/kendallroden/.nuget/packages/",
-        "outputPath": "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/obj/",
+        "outputPath": "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kendallroden/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TC57HsYIS6UZ7poVHNsrUCS7IWW7LVfQD+Ipy7ipOXIQhRxXmSIOdRyzW6zMhcQtqJjPTrvV4mY++T7vEBgJtg==",
+  "dgSpecHash": "FFc5hAeNv1ZShFJ8HzYKPo3M0BzNp4pXpebzC12gGO/j2uQTdEYQHLRI0DGYipr87FWZK3UQhPnTKPFysnLDWw==",
   "success": true,
-  "projectFilePath": "/Users/kendallroden/repos/External-Endpoint-Workflow/CheckoutService/CheckoutServiceWorkflowSample.csproj",
+  "projectFilePath": "/Users/kendallroden/repos/Workflow-NonDaprInvoke/CheckoutService/CheckoutServiceWorkflowSample.csproj",
   "expectedPackageFiles": [
     "/Users/kendallroden/.nuget/packages/castle.core/5.0.0/castle.core.5.0.0.nupkg.sha512",
     "/Users/kendallroden/.nuget/packages/dapr.aspnetcore/1.11.0/dapr.aspnetcore.1.11.0.nupkg.sha512",

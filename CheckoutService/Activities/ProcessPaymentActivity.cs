@@ -18,7 +18,7 @@ namespace CheckoutServiceWorkflowSample.Activities
         public override async Task<PaymentResponse> RunAsync(WorkflowActivityContext context, PaymentRequest req)
         {
             // Use Dapr svc-to-svc to invoke Payment microservice 
-            var invokeClient = DaprClient.CreateInvokeHttpClient(appId: "stripe-link");
+            var invokeClient = DaprClient.CreateInvokeHttpClient(appId: "stripe-payment");
             invokeClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
             string[] sourceIds = { "cnon:card-nonce-ok", "cnon:card-nonce-declined" };
@@ -26,8 +26,8 @@ namespace CheckoutServiceWorkflowSample.Activities
             var n = random.Next(0, 2);
             try
             {
-                // Simulate slow processing
-                await Task.Delay(TimeSpan.FromSeconds(5));
+                // Simulate slow processing for Demos
+                // await Task.Delay(TimeSpan.FromSeconds(5));
 
                 var data = new CreatePayment(
                     idempotency_key: Guid.NewGuid().ToString(),
