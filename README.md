@@ -2,6 +2,8 @@
 
 An example of using Dapr Workflows with the new feature for invoking non-Dapr enabled endpoints
 
+![](DemoArch.svg)
+
 ## Prerequisites
 
 1. [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
