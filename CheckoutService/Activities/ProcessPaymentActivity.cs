@@ -36,7 +36,6 @@ namespace CheckoutServiceWorkflowSample.Activities
                     autocomplete: true,
                     customer_id: req.Name + Guid.NewGuid().ToString(),
                     reference_id: context.InstanceId,
-                    location_id: "L70EQ5Z85X6VE",
                     note: req.OrderItem,
                     app_fee_money: null);
 
@@ -62,7 +61,7 @@ namespace CheckoutServiceWorkflowSample.Activities
         public record AmountMoney(int amount, string currency);
         public record AppFeeMoney(int amount, string currency);
         public record CreatePayment(string idempotency_key, AmountMoney amount_money, string source_id, bool autocomplete, string customer_id,
-        string reference_id, string location_id, string note, AppFeeMoney? app_fee_money);
+        string reference_id, string note, AppFeeMoney? app_fee_money);
 
     }
 }
